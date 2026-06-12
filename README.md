@@ -1,4 +1,4 @@
-# bluez_inc_enhance
+# LE_Audio_Manager
 This repository is an enhancement to bluez_inc(https://github.com/weliem/bluez_inc), adding support for Classic BT and partial support for LE audio.
 
 ## 1. Introduction
@@ -508,7 +508,7 @@ static lm_status_t lm_adapter_callback(lm_msg_type_t msg,
 
 ```c
 static lm_transport_bcast_code_t bcode = {
-    'a', 'm', 'l', 'b', 'i', 's',
+    'l', 'm', '_', 'b', 'i', 's',
     0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 };
 ```
